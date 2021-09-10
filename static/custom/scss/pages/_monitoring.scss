@@ -1,0 +1,13 @@
+.monitoring {
+  .navbar-fixed-top {
+    background: white;
+  }
+
+  #wrap {
+    margin-top: 0 !important;
+
+    > .container {
+      max-width: 100%;
+    }
+  }
+}

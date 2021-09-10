@@ -1,0 +1,48 @@
+form input {
+  @extend input
+}
+
+.label-default {
+  background-color: #bbbbbb;
+}
+
+label {
+  font-weight: 500;
+}
+
+select {
+  padding: 6px 12px;
+  border-radius: $border-radius;
+  height: inherit;
+  outline: none;
+  border: none;
+}
+
+.selection > .select2-selection {
+  border-radius: $border-radius;
+  border: 1px solid #eeeeee !important;
+
+  .select2-selection__rendered {
+    padding: 2px 12px 1px 12px;
+  }
+}
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice {
+  background-color: #f1f1f1;
+  border: 1px solid #e4e4e4;
+}
+
+.helptext {
+  display: inline-block;
+  margin-top: 4px;
+}
+
+#upload_form input[type="text"]:focus {
+  box-shadow: none;
+}
+
+label.checkbox input[type="checkbox"], label.checkbox-inline input[type="checkbox"] {
+    position: relative;
+    margin-left: 0;
+    margin-right: 10px;
+}

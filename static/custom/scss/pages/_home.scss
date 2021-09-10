@@ -1,0 +1,74 @@
+.home .jumbotron {
+  background: #2c689c;
+  min-height: 520px;
+}
+
+.section-item {
+  padding: 60px 20px;
+}
+
+.home #showcase {
+  background: url(/static/custom/img/bando_02.png) no-repeat 150px 0 #f9f9f9;
+
+  .item-content {
+    font-size: 15px;
+    //min-height: 160px;
+    min-height: 110px;
+  }
+}
+
+
+.facet-box {
+  border-radius: 12px;
+  padding: 16px 16px 10px 16px;
+  color: white;
+}
+
+#datasets {
+  .iso-categories-wrapper {
+    background: url(/static/custom/img/dots.svg) repeat center/auto, linear-gradient(180deg, #21c8f6, #637bff);
+    color: white;
+    min-height: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .iso-categories .row span {
+      background-color: #FE4066 !important;
+    }
+
+    .category {
+      color: white;
+
+      &:hover {
+        color: #d2d2d2 !important;
+      }
+    }
+  }
+
+  .featured-datasets {
+    //color: white;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    //background: url(https://www.clickup.com/landing/images/v2/dots.svg) repeat center/auto, linear-gradient(90deg, #5563aa, #984aae);
+
+    .box-item {
+      //background-color: rgba(0, 0, 0, 0.2);
+      border-radius: 12px;
+      overflow: hidden;
+      background: url(/static/custom/img/dots.svg) repeat center/auto, linear-gradient(90deg, #5563aa, #984aae);
+      box-shadow: 0 0 transparent, 0 0 transparent, 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+      h4 {
+        padding: 0;
+      }
+    }
+
+    h3 {
+      margin: 0;
+      padding-bottom: 30px;
+    }
+  }
+}

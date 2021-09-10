@@ -1,0 +1,111 @@
+html, body {
+  font-size: 14px !important;
+}
+
+.grp-listing-small {
+  font-size: 13px;
+
+  a {
+    padding-bottom: 10px;
+  }
+}
+
+.grp-font-size-m, h3 {
+  font-size: 13px;
+}
+
+#grp-navigation, #grp-content {
+  padding-right: 30px !important;
+  padding-left: 30px !important;
+}
+
+#grp-context-navigation {
+  padding-left: 10px !important;
+}
+
+
+#grp-content-title {
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+#grp-breadcrumbs > ul {
+  padding: 10px 20px;
+}
+
+#grp-user-tools {
+  border: none;
+
+  > li {
+    border: none;
+  }
+}
+
+
+#grp-navigation {
+  background: #417690;
+
+  a {
+    color: white;
+  }
+}
+
+#grp-content-container {
+
+}
+
+.grp-module {
+  border: none;
+  background: none;
+  margin-bottom: 16px;
+
+  .grp-row:not(tr) {
+    padding: 8px 12px;
+  }
+
+  h2 {
+    text-transform: uppercase;
+  }
+
+  h2, h3 {
+    color: white;
+    text-shadow: none;
+    background: #79AEC8;
+    padding: 8px 12px;
+
+    a {
+      color: white;
+    }
+  }
+
+
+}
+
+.g-d-c, .g-all-c {
+  width: 100%;
+  display: flex;
+}
+
+.g-d-12, .l-2cr-fluid.l-d-12 .c-1 {
+  width: 60%;
+}
+
+.g-d-6, .l-2cr-fluid.l-d-6 .c-1 {
+  width: 300px;
+}
+
+
+fieldset.grp-module .grp-row label {
+    font-size: 14px;
+    line-height: 100%;
+}
+
+input[type="text"], input[type="password"], input[type="url"], input[type="email"], input[type="number"], input[type="submit"], input[type="reset"], textarea, select {
+  height: inherit;
+  padding: 6px 12px;
+  box-shadow: none;
+}
+
+.grp-submit-row.grp-fixed-footer>ul>li {
+    background: #e8e6e6;
+}

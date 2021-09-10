@@ -1,0 +1,127 @@
+#embedded_map {
+  border-radius: $border-radius;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 8%);;
+}
+
+
+.modal-header {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  background: $bg-primary;
+}
+
+.modal-dialog {
+  border-radius: $border-radius !important;
+
+  form {
+    padding: 20px !important;
+  }
+}
+
+.msgapi {
+
+  #drawer-menu-button {
+    margin: 10px;
+    border-radius: $border-radius;
+  }
+
+  .background-preview-button {
+    margin: 10px !important;
+  }
+
+  #mapstore-navbar-container {
+    margin: 10px !important;
+  }
+
+  #mapstore-burger-menu-container {
+    height: 53px;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+  }
+
+  #navigationBar-container {
+    margin-right: 10px;
+    margin-bottom: 40px;
+  }
+
+  #mapstore-navbar {
+    .MapSearchBar, .navbar-dx.shadow {
+      box-shadow: $shadow;
+    }
+  }
+
+  .MapSearchBar {
+    .input-group {
+      border-top-left-radius: $border-radius !important;
+      border-bottom-left-radius: $border-radius !important;
+
+      .searchInput {
+        border-radius: $border-radius;
+        padding: 8px 16px;
+        font-size: 18px;
+      }
+    }
+
+  }
+
+  .mapToolbar {
+    box-shadow: none !important;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+
+  .square-button .glyphicon {
+    margin: auto;
+    font-size: 16px;
+  }
+
+  .square-button {
+    height: 36px;
+    width: 36px !important;
+  }
+
+  .square-button-md {
+    width: 25px !important;
+    height: 25px !important;
+    top: 0;
+    border-radius: $border-radius;
+  }
+
+  .background-list-container {
+    margin-left: 10px;
+  }
+
+  .bg-primary {
+    background-color: $primary;
+  }
+
+  [class^="glyphicon-"]:before, [class*=" glyphicon-"]:before {
+    font-size: 13px;
+  }
+}
+
+.background-preview-button-container, .background-preview-icon-container-horizontal, .background-preview-icon-container-vertical {
+  border-radius: $border-radius;
+
+  img {
+    border-radius: $border-radius;
+  }
+}
+
+.msgapi .fill .navbar-dx .dropdown-menu li a, .msgapi .fill .navbar-home .dropdown-menu li a {
+  max-height: none;
+}
+
+.msgapi .ms-side-panel .ms-header.ms-primary .row:first-child {
+  background: $bg-primary;
+}
+
+.msgapi .catalog-panel .panel-body > div > form, .msgapi .catalog-panel .panel-body > form {
+  padding: 16px 16px;
+}
+
+.msgapi .form-control {
+  height: inherit;
+  padding: 8px 12px;
+  border-radius: $border-radius;
+}

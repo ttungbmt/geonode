@@ -1,0 +1,26 @@
+// -- Button
+button:focus {
+    outline: none!important;
+}
+
+.btn {
+    border: none!important;
+    border-radius: $border-radius;
+    padding: 8px 16px;
+}
+
+.btn-primary {
+    background: $bg-primary!important;
+
+    &:hover {
+        background: $bg-primary-active;
+    }
+}
+
+.btn-primary:active:hover, .btn-primary.active:hover, .open > .dropdown-toggle.btn-primary:hover, .btn-primary:active:focus, .btn-primary.active:focus, .open > .dropdown-toggle.btn-primary:focus, .btn-primary:active.focus, .btn-primary.active.focus, .open > .dropdown-toggle.btn-primary.focus {
+    background: $bg-primary-active;
+}
+
+.search-button {
+    padding: 8px 16px!important;
+}

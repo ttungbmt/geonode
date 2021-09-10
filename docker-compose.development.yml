@@ -3,7 +3,6 @@ services:
 
   celery:
     build: .
-    command: celery -A geonode.celery_app:app worker --without-gossip --without-mingle -Ofair -B -E --statedb=worker.state -s celerybeat-schedule --loglevel=INFO --concurrency=10 -n worker1@%h
     depends_on:
       - db
       - elasticsearch
@@ -22,10 +21,11 @@ services:
       - ALLOWED_HOSTS=['localhost', ]
       - GEOSERVER_PUBLIC_LOCATION=http://localhost/geoserver/
       - GEOSERVER_WEB_UI_LOCATION=http://localhost/geoserver/
+    command: celery -A geonode.celery_app:app worker --without-gossip --without-mingle -Ofair -B -E --statedb=worker.state -s celerybeat-schedule --loglevel=INFO --concurrency=10 -n worker1@%h
+    entrypoint: [ "/usr/src/app/entrypoint.sh" ]
 
   django:
     build: .
-    command: python manage.py runserver --settings=geonode.settings 0.0.0.0:8000
     volumes:
       - .:/usr/src/app
       - statics:/mnt/volumes/statics
@@ -40,6 +40,10 @@ services:
       - ALLOWED_HOSTS=['localhost', ]
       - GEOSERVER_PUBLIC_LOCATION=http://localhost/geoserver/
       - GEOSERVER_WEB_UI_LOCATION=http://localhost/geoserver/
+    ports:
+      - 90:8000
+    command: python manage.py runserver --settings=geonode.settings 0.0.0.0:8000
+    entrypoint: [ "/usr/src/app/entrypoint.sh" ]
 
   geoserver:
     depends_on:

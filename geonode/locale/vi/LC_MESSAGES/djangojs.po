@@ -26,7 +26,7 @@ msgstr ""
 "Project-Id-Version: GeoNode\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-04-07 14:04+0200\n"
-"PO-Revision-Date: 2016-08-23 11:58+0000\n"
+"PO-Revision-Date: 2021-08-13 16:43+0700\n"
 "Last-Translator: Julien Collaer <julien.collaer@opengeode.be>\n"
 "Language-Team: Vietnamese (http://www.transifex.com/geonode/geonode/language/"
 "vi/)\n"
@@ -35,177 +35,200 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.2\n"
 
 msgid "STORE_UPDATED"
-msgstr ""
+msgstr "STORE_UPDATED"
 
 #, javascript-format
 msgid "Missing a %s file, which is required"
-msgstr "Thiếu một %s file, đó là cần thiết"
+msgstr "Thiếu một %s file - bắt buộc"
 
 msgid "ESRI Shapefile"
 msgstr "ESRI Shapefile"
 
 msgid "ASCII Text File"
-msgstr ""
+msgstr "Tập tin văn bản ASCII"
 
 msgid "GeoTIFF"
-msgstr ""
+msgstr "GeoTIFF"
 
 msgid "Comma Separated Value"
-msgstr ""
+msgstr "Giá trị được phân tách bằng dấu phẩy"
 
 msgid "Google Earth KML"
 msgstr "Google Earth KML"
 
-#, fuzzy
-#| msgid "Google Earth KML"
 msgid "Google Earth KML with a GroundOverlay"
-msgstr "Google Earth KML"
+msgstr "Google Earth KML với một GroundOverlay"
 
-#, fuzzy
-#| msgid "Google Earth KML"
 msgid "Google Earth KMZ"
 msgstr "Google Earth KML"
 
 msgid "GeoJSON"
-msgstr "GeoJSON còn"
+msgstr "GeoJSON"
 
 msgid "Zip Archive"
-msgstr ""
+msgstr "Zip Archive"
 
 msgid "ERDAS Imagine"
-msgstr ""
+msgstr "ERDAS Imagine"
 
 msgid "National Imagery Transmission Format"
-msgstr ""
+msgstr "National Imagery Transmission Format"
 
 msgid "Controlled Image Base-1 Meter"
-msgstr ""
+msgstr "Controlled Image Base-1 Meter"
 
 msgid "Controlled Image Base-5 Meter"
-msgstr ""
+msgstr "Controlled Image Base-5 Meter"
 
 msgid "Controlled Image Base-10 Meter"
-msgstr ""
+msgstr "Controlled Image Base-10 Meter"
 
 msgid "CADRG-Global Navigation Chart"
-msgstr ""
+msgstr "CADRG-Global Navigation Chart"
 
 msgid "CADRG-Jet Navigation Chart"
-msgstr ""
+msgstr "CADRG-Jet Navigation Chart"
 
 msgid "CADRG-Operational Navigation Chart"
-msgstr ""
+msgstr "CADRG-Operational Navigation Chart"
 
 msgid "CADRG-Tactical Pilotage Chart"
-msgstr ""
+msgstr "CADRG-Tactical Pilotage Chart"
 
 msgid "CADRG-Joint Operations Graphic"
-msgstr ""
+msgstr "CADRG-Joint Operations Graphic"
 
 msgid "CADRG-Topographic Line Map 100K"
-msgstr ""
+msgstr "CADRG-Topographic Line Map 100K"
 
 msgid "CADRG-Topographic Line Map 50K"
-msgstr ""
+msgstr "CADRG-Topographic Line Map 50K"
 
 msgid "JPEG2000"
-msgstr ""
+msgstr "JPEG2000"
 
 msgid "MrSID-Multi-resolution Seamless Image Database"
-msgstr ""
+msgstr "MrSID-Multi-resolution Seamless Image Database"
 
-#, fuzzy
-#| msgid "Metadata Links:"
 msgid "XML Metadata File"
-msgstr "Liên kết siêu dữ liệu:"
+msgstr "Liên kết siêu dữ liệu"
 
 msgid "Style Layer Descriptor"
-msgstr ""
+msgstr "Style Layer Descriptor"
 
 msgid "JPEG"
-msgstr ""
+msgstr "JPEG"
 
 msgid "PNG"
-msgstr ""
+msgstr "PNG"
 
 msgid "GIF"
-msgstr ""
+msgstr "GIF"
 
-#, fuzzy
-#| msgid "Unexpected Error"
 msgid "Unexpected error!"
-msgstr "Lỗi bất ngờ"
+msgstr "Lỗi!"
 
 msgid ""
 " - 400 Bad Request. Server cannot or will not process the request due to "
 "something that is perceived to be a client error (e.g., malformed request "
 "syntax, invalid request message framing, or deceptive request routing)."
 msgstr ""
+" - 400 Bad Request. Server cannot or will not process the request due to "
+"something that is perceived to be a client error (e.g., malformed request "
+"syntax, invalid request message framing, or deceptive request routing)."
 
 msgid ""
 " - 401 Unauthorized. Request was not sent with the proper authentication "
 "credentials."
 msgstr ""
+" - 401 Unauthorized. Request was not sent with the proper authentication "
+"credentials."
 
 msgid ""
 " - 403 Forbidden. This is generally related to permission rules on your "
 "server. Contact the system administrator for more information regarding this "
 "error message."
 msgstr ""
+" - 403 Forbidden. This is generally related to permission rules on your "
+"server. Contact the system administrator for more information regarding this "
+"error message."
 
 msgid ""
 " - 404 Not Found. Origin server was unable or unwilling to find the resource "
 "requested."
 msgstr ""
+" - 404 Not Found. Origin server was unable or unwilling to find the resource "
+"requested."
 
 msgid ""
 " - 405 Method Not Allowed. Origin server is aware of the requested resource, "
 "but the request method used is not supported."
 msgstr ""
+" - 405 Method Not Allowed. Origin server is aware of the requested resource, "
+"but the request method used is not supported."
 
 msgid ""
 " - 406 Not Acceptable. Resource is not available at the origin that adheres "
 "to negotiation headers that were  set prior (e.g. via 'Accept-Charset' and "
 "'Accept-Language' headers)."
 msgstr ""
+" - 406 Not Acceptable. Resource is not available at the origin that adheres "
+"to negotiation headers that were  set prior (e.g. via 'Accept-Charset' and "
+"'Accept-Language' headers)."
 
 msgid ""
 " - 407 Authentication Required. The client did not send the required "
 "authentication with the request."
 msgstr ""
+" - 407 Authentication Required. The client did not send the required "
+"authentication with the request."
 
 msgid ""
 " - 408 Request Timeout. The origin server did not receive the complete "
 "request in what it considers a reasonable time."
 msgstr ""
+" - 408 Request Timeout. The origin server did not receive the complete "
+"request in what it considers a reasonable time."
 
 msgid ""
 " - 409 Conflict. The request did not complete because of a conflict with the "
 "current state of the resource. Typically happens on a PUT request where "
 "multiple clients are attempting to edit the same resource."
 msgstr ""
+" - 409 Conflict. The request did not complete because of a conflict with the "
+"current state of the resource. Typically happens on a PUT request where "
+"multiple clients are attempting to edit the same resource."
 
 msgid ""
 " - 410 Gone. The resource requested is permanently missing at the origin."
 msgstr ""
+" - 410 Gone. The resource requested is permanently missing at the origin."
 
 msgid ""
 " - 411 Length Required. Client did not define the 'Content-Length' of the "
 "request body in the headers and this is required to obtain the resource."
 msgstr ""
+" - 411 Length Required. Client did not define the 'Content-Length' of the "
+"request body in the headers and this is required to obtain the resource."
 
 msgid ""
 " - 412 Precondition Failed. Server denies the request because the resource "
 "failed to meet the conditions specified by the client."
 msgstr ""
+" - 412 Precondition Failed. Server denies the request because the resource "
+"failed to meet the conditions specified by the client."
 
 msgid ""
 " - 413 Payload Too Large. Refusal from the server to process the request "
 "because the payload sent from the client is larger than the server wished to "
 "accept. Server has the optional to close the connection."
 msgstr ""
+" - 413 Payload Too Large. Refusal from the server to process the request "
+"because the payload sent from the client is larger than the server wished to "
+"accept. Server has the optional to close the connection."
 
 msgid ""
 " - 414 URI Too Long. Refusal from the server that the URI was too long to be "
@@ -213,6 +236,10 @@ msgid ""
 "unusually long URI after a POST, this could be seen as a security risk and a "
 "414 gets generated."
 msgstr ""
+" - 414 URI Too Long. Refusal from the server that the URI was too long to be "
+"processed. For example, if a client is attempting a GET request with an "
+"unusually long URI after a POST, this could be seen as a security risk and a "
+"414 gets generated."
 
 msgid ""
 " - 415 Unsupported Media Type. Refusal from the server to process the format "
@@ -220,22 +247,33 @@ msgid ""
 "look at the 'Content-Type' or 'Content-Encoding' headers sent in the "
 "client’s request."
 msgstr ""
+" - 415 Unsupported Media Type. Refusal from the server to process the format "
+"of the current payload. One way to identify and fix this issue would be to "
+"look at the 'Content-Type' or 'Content-Encoding' headers sent in the "
+"client’s request."
 
 msgid ""
 " - 417 Expectation Failed. Failure of server to meet the requirements "
 "specified in the 'Expect' header of the client’s request."
 msgstr ""
+" - 417 Expectation Failed. Failure of server to meet the requirements "
+"specified in the 'Expect' header of the client’s request."
 
 msgid ""
 " - 429 Too Many Requests. Client has sent too many requests in the specified "
 "amount of time according to the server."
 msgstr ""
+" - 429 Too Many Requests. Client has sent too many requests in the specified "
+"amount of time according to the server."
 
 msgid ""
 " - 499 Client Close Request. Nginx specific response code to indicate when "
 "the connection has been closed by the client while the server is still "
 "processing its request, making server unable to send a status code back."
 msgstr ""
+" - 499 Client Close Request. Nginx specific response code to indicate when "
+"the connection has been closed by the client while the server is still "
+"processing its request, making server unable to send a status code back."
 
 msgid ""
 " - 500 Internal Server Error. This error indicates that the server has "
@@ -243,6 +281,10 @@ msgid ""
 "request cannot be fulfilled due to the application being configured "
 "incorrectly on the server."
 msgstr ""
+" - 500 Internal Server Error. This error indicates that the server has "
+"encountered an unexpected condition. This often occurs when an application "
+"request cannot be fulfilled due to the application being configured "
+"incorrectly on the server."
 
 msgid ""
 " - 501 Not Implemented. This error indicates that the HTTP method sent by "
@@ -250,12 +292,19 @@ msgid ""
 "server being out of date. It is a very rare error and generally requires "
 "that the web server be updated."
 msgstr ""
+" - 501 Not Implemented. This error indicates that the HTTP method sent by "
+"the client is not supported by the server. This is most often caused by the "
+"server being out of date. It is a very rare error and generally requires "
+"that the web server be updated."
 
 msgid ""
 " - 502 Bad Gateway. This error is usually due to improperly configured proxy "
 "servers. The first step in resolving the issue is to clear the client's "
 "cache."
 msgstr ""
+" - 502 Bad Gateway. This error is usually due to improperly configured proxy "
+"servers. The first step in resolving the issue is to clear the client's "
+"cache."
 
 msgid ""
 " - 503 Service Unavailable. This error occurs when the server is unable to "
@@ -263,12 +312,19 @@ msgid ""
 "temporarily closed for maintenance. The error indicates that the server will "
 "only temporarily be down."
 msgstr ""
+" - 503 Service Unavailable. This error occurs when the server is unable to "
+"handle requests due to a temporary overload or due to the server being "
+"temporarily closed for maintenance. The error indicates that the server will "
+"only temporarily be down."
 
 msgid ""
 " - 504 Gateway Timeout. GeoNode lost the connection with GeoServer or DB due "
 "to a connection timeout. Consider using the management commands to import "
 "data!"
 msgstr ""
+" - 504 Gateway Timeout. GeoNode lost the connection with GeoServer or DB due "
+"to a connection timeout. Consider using the management commands to import "
+"data!"
 
 msgid ""
 " - 505 HTTP Version Not Supported. This error occurs when the server refuses "
@@ -277,11 +333,18 @@ msgid ""
 "client computer; for example, if an invalid version number has been "
 "specified."
 msgstr ""
+" - 505 HTTP Version Not Supported. This error occurs when the server refuses "
+"to support the HTTP protocol that has been specified by the client computer. "
+"This can be caused by the protocol not being specified properly by the "
+"client computer; for example, if an invalid version number has been "
+"specified."
 
 msgid ""
 " - 506 Variant Also Negotiates. This error indicates that the server is not "
 "properly configured. Contact the system administrator to resolve this issue."
 msgstr ""
+" - 506 Variant Also Negotiates. This error indicates that the server is not "
+"properly configured. Contact the system administrator to resolve this issue."
 
 msgid ""
 " - 507 Insufficient Storage. This error indicates that the server is out of "
@@ -292,6 +355,13 @@ msgid ""
 "expanded, or it may simply need to be restarted. Contact the system "
 "administrator for more information regarding this error message."
 msgstr ""
+" - 507 Insufficient Storage. This error indicates that the server is out of "
+"free memory. This is most likely to occur when an application that is being "
+"requested cannot allocate the necessary system resources to run. To resolve "
+"the issue, the server's hard disk may need to be cleaned of any unnecessary "
+"documents to free up more hard disk space, its memory may need to be "
+"expanded, or it may simply need to be restarted. Contact the system "
+"administrator for more information regarding this error message."
 
 msgid ""
 " - 509 Bandwidth Limit Exceeded. This error occurs when the bandwidth limit "
@@ -299,91 +369,93 @@ msgid ""
 "issue is to wait until the limit is reset in the following cycle. Consult "
 "the system administrator for information about acquiring more bandwidth."
 msgstr ""
+" - 509 Bandwidth Limit Exceeded. This error occurs when the bandwidth limit "
+"imposed by the system administrator has been reached. The only fix for this "
+"issue is to wait until the limit is reset in the following cycle. Consult "
+"the system administrator for information about acquiring more bandwidth."
 
 msgid ""
 " - 510 Not Extended. This error occurs when an extension attached to the "
 "HTTP request is not supported by the web server. To resolve the issue, you "
 "may need to update the server."
 msgstr ""
+" - 510 Not Extended. This error occurs when an extension attached to the "
+"HTTP request is not supported by the web server. To resolve the issue, you "
+"may need to update the server."
 
 msgid ""
 " Error Code. Contact the system administrator for more information regarding "
 "this error message."
 msgstr ""
+" Mã lỗi. lien hệ quản trị viên hệ thống để biết them thông tin về lỗi này."
 
 msgid "Finalizing"
-msgstr ""
+msgstr "Đang hoàn tất"
 
 msgid "Unexpected Error"
-msgstr "Lỗi bất ngờ"
+msgstr "Lỗi"
 
-#, fuzzy
-#| msgid "Layer Info"
 msgid " Info"
-msgstr "Layer Info"
+msgstr " Info"
 
 msgid "Edit Metadata"
 msgstr "Chỉnh sửa Metadata"
 
-#, fuzzy
-#| msgid "Edit Metadata"
 msgid "Upload Metadata"
-msgstr "Chỉnh sửa Metadata"
+msgstr "Tải lên Metadata"
 
 msgid "Upload SLD"
-msgstr ""
+msgstr "Tải lên SLD"
 
 msgid "Manage Styles"
 msgstr "Quản lý Styles"
 
 msgid "The column %1 was renamed to %2 <br/>"
-msgstr ""
+msgstr "Cột %1 đã được đổi tên thành %2 <br/>"
 
 msgid "Your "
-msgstr ""
+msgstr "Của bạn "
 
 msgid "Performing Final GeoServer Config Step"
-msgstr "Thực hiện cuối cùng GeoServer Config Bước"
+msgstr "Thực hiện bước cấu hình GeoServer cuối cùng"
 
 msgid "You need to specify more information in order to complete your upload"
-msgstr "Bạn cần xác định thêm thông tin để hoàn thành tải lên của bạn"
+msgstr "Bạn cần nhập thêm thông tin để hoàn thành việc tải lên dữ liệu"
 
 msgid "Files are ready to be ingested!"
-msgstr ""
+msgstr "Các tập tin đã sẵn sàng để nhập!"
 
 msgid "A temporal dimension may be added to this Layer."
-msgstr ""
+msgstr "Thuộc tính thời gian có thể được thêm vào lớp dữ lieu này."
 
 msgid "Performing GeoServer Config Step"
-msgstr "Thực hiện GeoServer Config Bước"
+msgstr "Thực hiện bước cấu hình GeoServer"
 
 msgid ""
 "<br>Please check your network connection. In case of Layer Upload make sure "
 "GeoServer is running and accepting connections."
 msgstr ""
+"<br> Vui lòng kiểm tra kết nối mạng của bạn. Trong trường hợp tải lên lớp dữ "
+"liệu, hãy đảm bảo GeoServer đang chạy và chấp nhận các kết nối."
 
 msgid "<br>"
-msgstr ""
+msgstr "<br>"
 
 msgid "<br>Bad request or URL not found."
-msgstr ""
+msgstr "<br> Yêu cầu không hợp lệ hoặc không tìm thấy URL."
 
-#, fuzzy
-#| msgid "Unknown Map"
 msgid "<br>Unknown."
-msgstr "Không biết Bản đồ"
+msgstr "<br>Không xác định."
 
 msgid "Layer files uploaded, configuring in GeoServer"
-msgstr "Các tập tin tải lên lớp, cấu hình trong GeoServer"
+msgstr "Đã tải lên lớp dữ liệu, thiết lập cấu hình trong GeoServer"
 
 msgid "Remove"
-msgstr "Tẩy"
+msgstr "Xóa"
 
 #, javascript-format
 msgid "The file %s is an unsupported file type, please select another file."
-msgstr ""
-"Các tập tin%s là một loại tập tin không được hỗ trợ, xin vui lòng chọn tập "
-"tin khác."
+msgstr "File %s không được hỗ trợ, xin vui lòng chọn loại file khác."
 
 msgid ""
 "You are trying to upload an incomplete set of files or not all mandatory "
@@ -391,6 +463,10 @@ msgid ""
 "\n"
 "Please check for errors in the form!"
 msgstr ""
+"Bạn đang cố tải lên một tập hợp tập tin chưa hoàn chỉnh hoặc tất cả các tùy "
+"chọn bắt buộc chưa được xác thực.\n"
+"\n"
+"Vui lòng kiểm tra lỗi trong biểu mẫu!"
 
 #, javascript-format
 msgid "Available %s"
@@ -470,137 +546,133 @@ msgstr ""
 "button."
 
 msgid "'"
-msgstr ""
+msgstr "'"
 
 msgid "trailingComments"
-msgstr ""
+msgstr "Bình luận theo sau"
 
 msgid "leadingComments"
-msgstr ""
+msgstr "Bình luận hàng đầu"
 
-#, fuzzy
-#| msgid "Enter comments here."
 msgid "innerComments"
-msgstr "Nhập ý kiến ​​ở đây."
+msgstr "innerComments"
 
 msgid "Multiselect"
-msgstr ""
+msgstr "Chọn nhiều"
 
-#, fuzzy
-#| msgid "Select"
 msgid "SelectList"
-msgstr "Lựa chọn"
+msgstr "Danh sách chọn"
 
 msgid "error"
-msgstr ""
+msgstr "lỗi"
 
 msgid "show:"
-msgstr ""
+msgstr "hiển thị:"
 
 msgid "uirevision"
-msgstr ""
+msgstr "uirevision"
 
 msgid "bgcolor"
-msgstr ""
+msgstr "bgcolor"
 
 msgid "bordercolor"
-msgstr ""
+msgstr "bordercolor"
 
 msgid "borderwidth"
-msgstr ""
+msgstr "borderwidth"
 
 msgid "orientation"
-msgstr ""
+msgstr "orientation"
 
 msgid "traceorder"
-msgstr ""
+msgstr "traceorder"
 
 msgid "tracegroupgap"
-msgstr ""
+msgstr "tracegroupgap"
 
 msgid "itemsizing"
-msgstr ""
+msgstr "itemsizing"
 
 msgid "itemclick"
-msgstr ""
+msgstr "itemclick"
 
 msgid "itemdoubleclick"
-msgstr ""
+msgstr "itemdoubleclick"
 
 msgid "x"
-msgstr ""
+msgstr "x"
 
 msgid "xanchor"
-msgstr ""
+msgstr "xanchor"
 
 msgid "y"
-msgstr ""
+msgstr "y"
 
 msgid "yanchor"
-msgstr ""
+msgstr "yanchor"
 
 msgid "valign"
-msgstr ""
+msgstr "valign"
 
 msgid "title.text"
-msgstr ""
+msgstr "title.text"
 
 msgid "title.side"
-msgstr ""
+msgstr "title.side"
 
 msgid "visible"
-msgstr ""
+msgstr "visible"
 
 msgid "thickness"
-msgstr ""
+msgstr "thickness"
 
 msgid "autorange"
-msgstr ""
+msgstr "autorange"
 
 msgid "range"
-msgstr ""
+msgstr "range"
 
 msgid "bingroup"
-msgstr ""
+msgstr "bingroup"
 
 msgid "layerProperties.visibilityLimits.rangeError"
-msgstr ""
+msgstr "layerProperties.visibilityLimits.rangeError"
 
 msgid "layerProperties.visibilityLimits.serverValuesError"
-msgstr ""
+msgstr "layerProperties.visibilityLimits.serverValuesError"
 
 msgid "typed_constructor"
-msgstr ""
+msgstr "typed_constructor"
 
 msgid "def_constructor"
-msgstr ""
+msgstr "def_constructor"
 
 msgid "POP"
-msgstr ""
+msgstr "POP"
 
 msgid "PUSH"
-msgstr ""
+msgstr "PUSH"
 
 msgid "layerdownload.exportResultsMessages.newExport"
-msgstr ""
+msgstr "layerdownload.exportResultsMessages.newExport"
 
 msgid "layerdownload.exportResultsMessages.exportSuccess"
-msgstr ""
+msgstr "layerdownload.exportResultsMessages.exportSuccess"
 
 msgid "layerdownload.exportResultsMessages.exportFailure"
-msgstr ""
+msgstr "layerdownload.exportResultsMessages.exportFailure"
 
 msgid "data-grid"
-msgstr ""
+msgstr "data-grid"
 
 msgid "Abort"
-msgstr ""
+msgstr "Bỏ qua"
 
 msgid "As Sibling"
-msgstr ""
+msgstr "As Sibling"
 
 msgid "As child"
-msgstr ""
+msgstr "As child"
 
 #, fuzzy
 #~| msgid "Now"
@@ -608,26 +680,26 @@ msgstr ""
 #~ msgstr "Now"
 
 #~ msgid "Your layer was successfully uploaded"
-#~ msgstr "Lớp của bạn đã được tải lên thành công"
+#~ msgstr "Dữ liệu được tải lên thành công"
 
 #~ msgid ""
 #~ "You need to specify more information in order to complete your upload."
-#~ msgstr "Bạn cần xác định thêm thông tin để hoàn thành tải lên của bạn."
+#~ msgstr "Bạn cần nhập thêm thông tin để hoàn thành việc tải lên dữ liệu."
 
 #~ msgid "You can continue configuring your layer."
-#~ msgstr "Bạn có thể tiếp tục cấu hình lớp của bạn."
+#~ msgstr "Bạn có thể tiếp tục cấu hình lớp dữ liệu."
 
 #~ msgid "Cancel"
-#~ msgstr "Hủy bỏ"
+#~ msgstr "Hủy"
 
 #~ msgid "Save as Copy"
-#~ msgstr "Tiết kiệm như Sao chép"
+#~ msgstr "Lưu bản sao"
 
 #~ msgid "About this Map"
-#~ msgstr "Về Bản đồ này"
+#~ msgstr "Giới thiệu bản đồ"
 
 #~ msgid "Abstract"
-#~ msgstr "Trừu tượng"
+#~ msgstr "Tóm tắt"
 
 #~ msgid "Save"
 #~ msgstr "Lưu"
@@ -639,31 +711,31 @@ msgstr ""
 #~ msgstr "Lỗi kết nối"
 
 #~ msgid "The server returned an error"
-#~ msgstr "Các máy chủ trả về một lỗi"
+#~ msgstr "Máy chủ trả về một lỗi"
 
 #~ msgid "Details..."
 #~ msgstr "Xem chi tiết ..."
 
 #~ msgid "Add Layers"
-#~ msgstr "Thêm Layers"
+#~ msgstr "Thêm lớp dữ liệu"
 
 #~ msgid "Area"
 #~ msgstr "Khu vực"
 
 #~ msgid "Background"
-#~ msgstr "Lý lịch"
+#~ msgstr "Hình nền"
 
 #~ msgid "Done"
-#~ msgstr "Làm xong"
+#~ msgstr "Hoàn thành"
 
 #~ msgid "Available Layers"
-#~ msgstr "Layers có sẵn"
+#~ msgstr "Các lớp dữ liệu sẵn dùng"
 
 #~ msgid "Height"
 #~ msgstr "Chiều cao"
 
 #~ msgid "Get Feature Info"
-#~ msgstr "Nhận Tính năng Thông tin"
+#~ msgstr "Xem thuộc tính đối tượng"
 
 #~ msgid "Large"
 #~ msgstr "Lớn"
@@ -672,7 +744,7 @@ msgstr ""
 #~ msgstr "hoặc thêm một máy chủ mới."
 
 #~ msgid "Map Layers"
-#~ msgstr "Bản đồ Layers"
+#~ msgstr "Các lớp dữ liệu của bản đồ"
 
 #~ msgid "View available data from:"
 #~ msgstr "Xem dữ liệu có sẵn từ:"
@@ -681,52 +753,52 @@ msgstr ""
 #~ msgstr "Dữ liệu"
 
 #~ msgid "Layers"
-#~ msgstr "Layers"
+#~ msgstr "Lớp dữ liệu"
 
 #~ msgid "Legend"
-#~ msgstr "Huyền thoại"
+#~ msgstr "Chú giải"
 
 #~ msgid "Length"
 #~ msgstr "Chiều dài"
 
 #~ msgid "Loading Map..."
-#~ msgstr "Đang tải Bản đồ ..."
+#~ msgstr "Đang tải bản đồ ..."
 
 #~ msgid "Map Size"
-#~ msgstr "Bản đồ Kích"
+#~ msgstr "Kích thước bản đồ"
 
 #~ msgid "Measure"
-#~ msgstr "Biện pháp"
+#~ msgstr "Đo lường"
 
 #~ msgid "Contact"
-#~ msgstr "Tiếp xúc"
+#~ msgstr "Liên hệ"
 
 #~ msgid "Permalink"
-#~ msgstr "Liên kết"
+#~ msgstr "Liên kết tĩnh"
 
 #~ msgid "Mini"
 #~ msgstr "Mini"
 
 #~ msgid "Pan Map"
-#~ msgstr "Pan Bản đồ"
+#~ msgstr "Di chuyển bản đồ"
 
 #~ msgid "Zoom to Next Extent"
-#~ msgstr "Phóng to để Mức độ Tiếp theo"
+#~ msgstr "Zoom kế tiếp"
 
 #~ msgid "Zoom to Previous Extent"
-#~ msgstr "Phóng to để Mức độ trước"
+#~ msgstr "Zoom về trước"
 
 #~ msgid "This map has not yet been saved."
-#~ msgstr "Bản đồ này vẫn chưa được lưu."
+#~ msgstr "Bản đồ chưa được lưu."
 
 #~ msgid "Premium"
-#~ msgstr "Phí bảo hiểm"
+#~ msgstr "Premium"
 
 #~ msgid "Print Map"
-#~ msgstr "In Bản"
+#~ msgstr "In bản đồ"
 
 #~ msgid "Print Preview"
-#~ msgstr "Print Preview"
+#~ msgstr "Xem trước trang in "
 
 #~ msgid "Properties"
 #~ msgstr "Thuộc tính"
@@ -735,16 +807,16 @@ msgstr ""
 #~ msgstr "Xuất bản Bản đồ"
 
 #~ msgid "Remove Layer"
-#~ msgstr "Hủy bỏ lớp"
+#~ msgstr "Xóa lớp"
 
 #~ msgid "Sorry, your map could not be saved."
-#~ msgstr "Xin lỗi, bản đồ của bạn có thể không được lưu."
+#~ msgstr "Không thể lưu bản đồ."
 
 #~ msgid "Error While Saving"
-#~ msgstr "Lỗi khi tiết kiệm"
+#~ msgstr "Lỗi khi lưu"
 
 #~ msgid "Save Map"
-#~ msgstr "Lưu Bản đồ"
+#~ msgstr "Lưu bản đồ"
 
 #~ msgid "You must be logged in to save this map."
 #~ msgstr "Bạn phải đăng nhập để lưu bản đồ này."
@@ -755,19 +827,19 @@ msgstr ""
 #~ msgid ""
 #~ "Error contacting server.\n"
 #~ " Please check the url and try again."
-#~ msgstr "Lỗi liên lạc với máy chủ. Vui lòng kiểm tra địa chỉ và thử lại."
+#~ msgstr "Lỗi kết nối với máy chủ. Vui lòng kiểm tra địa chỉ URL và thử lại."
 
 #~ msgid "Layer Properties"
 #~ msgstr "Layer Properties"
 
 #~ msgid "Change layer format and style"
-#~ msgstr "Thay đổi định dạng lớp và phong cách"
+#~ msgstr "Thay đổi định dạng lớp và style"
 
 #~ msgid "Edit Styles"
 #~ msgstr "Chỉnh sửa Styles"
 
 #~ msgid "Edit layer styles"
-#~ msgstr "Phong cách chỉnh sửa lớp"
+#~ msgstr "Chỉnh sửa Styles của lớp"
 
 #~ msgid "Switch to Google Earth 3D Viewer"
 #~ msgstr "Chuyển sang Google Earth 3D Viewer"
@@ -775,30 +847,28 @@ msgstr ""
 #~ msgid ""
 #~ "The map that you are trying to load does not exist.  Creating a new map "
 #~ "instead."
-#~ msgstr ""
-#~ "Các bản đồ mà bạn đang cố gắng để tải không tồn tại. Tạo một bản đồ mới "
-#~ "thay thế."
+#~ msgstr "Bản đồ bạn đang tải không tồn tại. Vui lòng tạo một bản đồ mới"
 
 #~ msgid "Width"
 #~ msgstr "Chiều rộng"
 
 #~ msgid "Zoom In"
-#~ msgstr "Zoom In"
+#~ msgstr "Thu nhỏ"
 
 #~ msgid "Zoom Out"
-#~ msgstr "Thu nhỏ"
+#~ msgstr "Phóng to"
 
 #~ msgid "Zoom level"
 #~ msgstr "Mức độ phóng"
 
 #~ msgid "Zoom Level"
-#~ msgstr "Zoom Level"
+#~ msgstr "Mức độ phóng"
 
 #~ msgid "Zoom to Layer Extent"
-#~ msgstr "Phóng to Layer Mức độ"
+#~ msgstr "Zoom đến Layer Extent"
 
 #~ msgid "Zoom to Visible Extent"
-#~ msgstr "Phóng to để Mức độ Visible"
+#~ msgstr "Zoom đến Visible Extent"
 
 #~ msgid "Zoom Level {zoom}"
 #~ msgstr "Zoom Level {} zoom"
@@ -807,13 +877,13 @@ msgstr ""
 #~ msgstr "Tạo Bản đồ"
 
 #~ msgid "Export Map"
-#~ msgstr "Bản đồ xuất khẩu"
+#~ msgstr "Xuất bản bản đồ"
 
 #~ msgid "Map"
 #~ msgstr "Bản đồ"
 
 #~ msgid "View this Map"
-#~ msgstr "Xem bản đồ này"
+#~ msgstr "Xem bản đồ"
 
 #~ msgid "Open Map"
 #~ msgstr "Mở Bản đồ"
@@ -831,14 +901,14 @@ msgstr ""
 #~ "Your map is ready to be published to the web!  Simply copy the following "
 #~ "HTML to embed the map in your website:"
 #~ msgstr ""
-#~ "Bản đồ của bạn đã sẵn sàng để được xuất bản lên web! Đơn giản chỉ cần sao "
-#~ "chép mã HTML sau đây để nhúng bản đồ trong trang web của bạn:"
+#~ "Bản đồ của bạn đã sẵn sàng để xuất bản lên web! Đơn giản chỉ cần sao chép "
+#~ "mã HTML sau đây để nhúng bản đồ trong trang web của bạn:"
 
 #~ msgid "Abstract:"
 #~ msgstr "Tóm tắt:"
 
 #~ msgid "No attribution information is provided for this layer."
-#~ msgstr "Không có thông tin ghi nhận được cung cấp cho lớp này."
+#~ msgstr "Không có thông tin Attribution cho lớp dữ liệu này."
 
 #~ msgid "Provided by:"
 #~ msgstr "Được cung cấp bởi:"
@@ -847,19 +917,19 @@ msgstr ""
 #~ msgstr "Tải về:"
 
 #~ msgid "No keywords are listed for this layer."
-#~ msgstr "Chưa có từ khóa được liệt kê cho lớp này."
+#~ msgstr "Chưa có từ khóa cho lớp dữ liệu này."
 
 #~ msgid "Keywords:"
 #~ msgstr "Từ khóa:"
 
 #~ msgid "No metadata URLs are defined for this layer."
-#~ msgstr "Không có URL siêu dữ liệu được định nghĩa cho lớp này."
+#~ msgstr "Không có URL siêu dữ liệu cho lớp này."
 
 #~ msgid "Paper size:"
 #~ msgstr "Kích thước giấy:"
 
 #~ msgid "Resolution:"
-#~ msgstr "Nghị quyết:"
+#~ msgstr "Độ phân giải:"
 
 #~ msgid "Print"
 #~ msgstr "In"
@@ -868,7 +938,7 @@ msgstr ""
 #~ msgstr "Nhập tiêu đề bản đồ ở đây."
 
 #~ msgid "Include legend?"
-#~ msgstr "Bao gồm huyền thoại?"
+#~ msgstr "Bao gồm chú giải?"
 
 #~ msgid "Creating PDF..."
 #~ msgstr "Tạo PDF ..."
@@ -886,16 +956,16 @@ msgstr ""
 #~ msgstr "của"
 
 #~ msgid "Your search did not match any items."
-#~ msgstr "Tìm kiếm của bạn không phù hợp với bất kỳ mục."
+#~ msgstr "Tìm kiếm của bạn không khớp với bất kỳ mục nào."
 
 #~ msgid "Search Maps"
-#~ msgstr "Search Maps"
+#~ msgstr "Tìm kiếm bản đồ"
 
 #~ msgid "Search"
 #~ msgstr "Tìm kiếm"
 
 #~ msgid "Showing"
-#~ msgstr "Xếp"
+#~ msgstr "Hiển thị"
 
 #~ msgid "Loading"
 #~ msgstr "Đang tải"
@@ -910,43 +980,43 @@ msgstr ""
 #~ msgstr "Tất cả"
 
 #~ msgid "None"
-#~ msgstr "Không ai"
+#~ msgstr "None"
 
 #~ msgid "Loading..."
-#~ msgstr "Loading ..."
+#~ msgstr "Đang tải ..."
 
 #~ msgid "You do not have permission to view this data"
-#~ msgstr "Bạn không có quyền để xem thông tin này"
+#~ msgstr "Bạn không có quyền xem dữ liệu này"
 
 #~ msgid "This data is stored on a remote server"
-#~ msgstr "Những thông tin này được lưu trữ trên một máy chủ từ xa"
+#~ msgstr "Dữ liệu này được lưu trữ trên một máy chủ từ xa"
 
 #~ msgid "No abstract is provided for this layer."
-#~ msgstr "Không trừu tượng được cung cấp cho lớp này."
+#~ msgstr "Không có tóm tắt mô tả dữ liệu này."
 
 #~ msgid "No download URLs are definied for this layer."
-#~ msgstr "Không có đường dẫn URL được definied cho lớp này."
+#~ msgstr "Không có đường dẫn tải xuốn cho lớp dữ liệu này."
 
 #~ msgid "Selected Layers"
-#~ msgstr "Layers chọn"
+#~ msgstr "Các lớp dữ liệu được chọn"
 
 #~ msgid "No Layers Selected"
-#~ msgstr "Không Layers chọn"
+#~ msgstr "Không có lớp dữ liệu nào được chọn"
 
 #~ msgid "Clear Selected"
-#~ msgstr "Rõ ràng chọn"
+#~ msgstr "Xóa phép chọn"
 
 #~ msgid "Clear All"
 #~ msgstr "Xóa tất cả"
 
 #~ msgid "Operation Failed"
-#~ msgstr "Không hoạt động"
+#~ msgstr "Tác vụ không thành công"
 
 #~ msgid "No layers are currently selected."
-#~ msgstr "Không có lớp hiện đang được chọn."
+#~ msgstr "Không có lớp dữ liệu nào đang được chọn."
 
 #~ msgid "Downloading..."
-#~ msgstr "Tải ..."
+#~ msgstr "Tải xuống..."
 
 #~ msgid "Please wait"
 #~ msgstr "Xin vui lòng chờ"

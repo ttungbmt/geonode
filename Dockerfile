@@ -23,4 +23,5 @@ RUN python manage.py migrate --settings=geonode.settings
 EXPOSE 8000
 
 # We provide no command or entrypoint as this image can be used to serve the django project or run celery tasks
-ENTRYPOINT service cron restart && service memcached restart && /usr/src/app/entrypoint.sh
+# @ttungbmt: Fix development mode (got command)
+#ENTRYPOINT service cron restart && service memcached restart && /usr/src/app/entrypoint.sh

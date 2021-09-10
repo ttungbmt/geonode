@@ -1,0 +1,22 @@
+nav.filter {
+  h4 {
+    background: white;
+
+    a {
+      display: flex;
+      align-items: center;
+
+      color: $primary;
+      font-weight: 500;
+
+      i {
+        font-size: 10px;
+      }
+    }
+  }
+
+  li a {
+    border: none;
+  }
+}
+

@@ -73,6 +73,7 @@ urlpatterns = [
     url(r'^(?P<mapid>[^/]+)/view$', existing_map_view, name='map_view'),
     url(r'^(?P<mapid>[^/]+)/edit$', map_edit, name='map_edit'),
     url(r'^(?P<mapid>[^/]+)/data$', map_json, name='map_json'),
+    url(r'^(?P<mapid>[^/]+)/download$', views.map_download, name='map_download'), # @ttungbmt
     url(r'^(?P<mapid>[^/]+)/wmc$', views.map_wmc, name='map_wmc'),
     url(r'^(?P<mapid>[^/]+)/remove$', views.map_remove, name='map_remove'),
     url(r'^(?P<mapid>[^/]+)/metadata$', views.map_metadata, name='map_metadata'),

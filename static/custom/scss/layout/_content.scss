@@ -1,0 +1,43 @@
+.item-details .item-meta .item-category {
+    text-transform: capitalize;
+}
+
+div[ng-controller="CartList"] {
+  > .col-md-3 > .row {
+    padding: 0 15px;
+
+    .col-xs-12 {
+      box-shadow: $shadow;
+      padding: 20px;
+      background: #fff;
+      border-radius: 12px;
+
+      .selections {
+        padding: 10px 10px;
+        margin-bottom: 10px;
+        font-weight: 600;
+        color: #f87171;
+        text-transform: uppercase;
+        border-bottom: 1px solid #efecec;
+
+        a {
+          color: #f87171;
+        }
+      }
+    }
+  }
+
+  > .col-md-9 {
+    padding-left: 30px;
+  }
+}
+
+.resourcebase-snippet {
+  .item-container > .col-lg-12 {
+    border-radius: $border-radius;
+    box-shadow: $shadow;
+    padding: 0;
+    background: white;
+    overflow: hidden;
+  }
+}

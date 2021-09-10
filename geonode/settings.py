@@ -294,6 +294,7 @@ STATIC_URL = os.getenv('STATIC_URL', f'{FORCE_SCRIPT_NAME}/{STATICFILES_LOCATION
 
 # Additional directories which hold static files
 _DEFAULT_STATICFILES_DIRS = [
+    os.path.join(PROJECT_ROOT, '../'+STATICFILES_LOCATION), # @ttungbmt
     os.path.join(PROJECT_ROOT, STATICFILES_LOCATION),
 ]
 
@@ -637,7 +638,7 @@ TEMPLATES = [
     {
         'NAME': 'GeoNode Project Templates',
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(PROJECT_ROOT, "templates")],
+        'DIRS': [os.path.join(PROJECT_ROOT, "../templates"), os.path.join(PROJECT_ROOT, "templates")], # @ttungbmt
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -1477,32 +1478,86 @@ if GEONODE_CLIENT_LAYER_PREVIEW_LIBRARY == 'mapstore':
                                     ] = GEONODE_CATALOGUE_SERVICE[list(list(GEONODE_CATALOGUE_SERVICE.keys()))[0]]
         MAPSTORE_CATALOGUE_SELECTED_SERVICE = list(list(GEONODE_CATALOGUE_SERVICE.keys()))[0]
 
+    # @ttungbmt
     DEFAULT_MS2_BACKGROUNDS = [
         {
-            "type": "osm",
-            "title": "Open Street Map",
-            "name": "mapnik",
-            "source": "osm",
+            "type": "tileprovider",
+            "title": "Google Maps",
+            "provider": "custom",
+            "name": "google-maps",
             "group": "background",
-            "visibility": True
+            "visibility": True,
+            "thumbURL": f"{SITEURL}static/custom/img/google-maps.jpg",
+            "url": "http://{s}.google.com/vt/lyrs=m&x={x}&y={y}&z={z}",
+            "options": {
+                "subdomains": [ "mt0", "mt1", "mt2", "mt3"]
+            }
         }, {
             "type": "tileprovider",
-            "title": "OpenTopoMap",
-            "provider": "OpenTopoMap",
-            "name": "OpenTopoMap",
-            "source": "OpenTopoMap",
+            "title": "Google Satellite",
+            "provider": "custom",
+            "name": "google-satellite",
             "group": "background",
-            "visibility": False
+            "visibility": False,
+            "thumbURL": f"{SITEURL}static/custom/img/google-satellite.jpg",
+            "url": "http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}",
+            "options": {
+                "subdomains": [ "mt0", "mt1", "mt2", "mt3"]
+            }
         }, {
-            "type": "wms",
-            "title": "Sentinel-2 cloudless - https://s2maps.eu",
-            "format": "image/jpeg",
-            "id": "s2cloudless",
-            "name": "s2cloudless:s2cloudless",
-            "url": "https://maps.geo-solutions.it/geoserver/wms",
+            "type": "tileprovider",
+            "title": "Vietnam OSM",
+            "provider": "custom",
+            "name": "becagis-maps",
             "group": "background",
-            "thumbURL": f"{SITEURL}static/mapstorestyle/img/s2cloudless-s2cloudless.png",
-            "visibility": False
+            "visibility": False,
+            "thumbURL": f"{SITEURL}static/custom/img/vietnam-osm.jpg",
+            "url": "https://thuduc-maps.hcmgis.vn/thuducserver/gwc/service/wmts?layer=thuduc:thuduc_maps&style=&tilematrixset=EPSG:900913&Service=WMTS&Request=GetTile&Version=1.0.0&Format=image/png&TileMatrix=EPSG:900913:{z}&TileCol={x}&TileRow={y}"
+        }, {
+            "type": "tileprovider",
+            "title": "Carto Antique",
+            "provider": "custom",
+            "name": "antique-maps",
+            "group": "background",
+            "visibility": False,
+            "thumbURL": f"{SITEURL}static/custom/img/antique-maps.jpg",
+            "url": "http://cartocdn_a.global.ssl.fastly.net/base-antique/{z}/{x}/{y}.png"
+        }, {
+            "type": "tileprovider",
+            "title": "Carto Dark",
+            "provider": "custom",
+            "name": "dark-all-maps",
+            "group": "background",
+            "visibility": False,
+            "thumbURL": f"{SITEURL}static/custom/img/dark-all-maps.jpg",
+            "url": "http://a.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png"
+        }, {
+            "type": "tileprovider",
+            "title": "Carto Light",
+            "provider": "custom",
+            "name": "light-all-maps",
+            "group": "background",
+            "visibility": False,
+            "thumbURL": f"{SITEURL}static/custom/img/light-all-maps.jpg",
+            "url": "http://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"
+        }, {
+            "type": "tileprovider",
+            "title": "Stamen Toner",
+            "provider": "custom",
+            "name": "toner-maps",
+            "group": "background",
+            "visibility": False,
+            "thumbURL": f"{SITEURL}static/custom/img/toner-maps.jpg",
+            "url": "http://a.tile.stamen.com/toner/{z}/{x}/{y}.png"
+        }, {
+            "type": "tileprovider",
+            "title": "Stamen Watercolor",
+            "provider": "custom",
+            "name": "watercolor-maps",
+            "group": "background",
+            "visibility": False,
+            "thumbURL": f"{SITEURL}static/custom/img/watercolor-maps.jpg",
+            "url": "http://c.tile.stamen.com/watercolor/{z}/{x}/{y}.jpg"
         }, {
             "source": "ol",
             "group": "background",
@@ -1513,6 +1568,7 @@ if GEONODE_CLIENT_LAYER_PREVIEW_LIBRARY == 'mapstore':
             "visibility": False,
             "args": ["Empty Background", {"visibility": False}]
         }
+
         # Custom XYZ Tile Provider
         # {
         #     "type": "tileprovider",

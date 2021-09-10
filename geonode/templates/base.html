@@ -39,6 +39,8 @@
     <link href="{% static "lib/css/ol.css" %}" rel="stylesheet" />
     <script src="{% static "lib/js/ol.js" %}"></script>
 
+    {% block before_head %}{% endblock %}
+
     {% block head %}
 
       {% if DEBUG_STATIC %}

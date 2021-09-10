@@ -1,0 +1,15 @@
+input {
+  padding: 8px 12px;
+  outline: 0;
+  border-radius: $border-radius;
+  background: white;
+
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.home .big-search .search input {
+    border-radius: $border-radius;
+}
+

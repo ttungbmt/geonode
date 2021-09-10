@@ -1107,8 +1107,7 @@ def map_download(request, mapid, template='maps/map_download.html'):
         mapJson = json.dumps(j_map)
 
         # the path to geoserver backend continue here
-        url = urljoin(settings.SITEURL,
-                      reverse("download-map", kwargs={'mapid': mapid}))
+        url = "%srest/process/batchDownload/launch/" % ogc_server_settings.LOCATION
         resp, content = http_client.request(url, 'POST', data=mapJson)
 
         status = int(resp.status_code)

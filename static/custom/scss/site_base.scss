@@ -1,0 +1,23 @@
+@import "variables";
+@import "components/components";
+@import "layout/layout";
+
+@import "pages/home";
+@import "pages/monitoring";
+
+.navbar-brand {
+  background-image: url(../img/logo.png);
+}
+
+.page-title, .page-header > h2 {
+  color: #0FA7E9;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.rounded-12 {
+  border-radius: 12px;
+}
+
