@@ -2,14 +2,15 @@
   border-top-left-radius: $border-radius;
   border-top-right-radius: $border-radius;
 
+  .modal-title {
+    color: white;
+  }
+
   h1 {
     color: white;
   }
 }
 
-.modal-title {
-  color: white;
-}
 
 .modal-content {
   border-width: 0;

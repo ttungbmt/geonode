@@ -99,11 +99,10 @@ dt {
 .modal-header {
   border-top-left-radius: 12px;
   border-top-right-radius: 12px; }
+  .modal-header .modal-title {
+    color: white; }
   .modal-header h1 {
     color: white; }
-
-.modal-title {
-  color: white; }
 
 .modal-content {
   border-width: 0;
