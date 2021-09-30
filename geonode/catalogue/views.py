@@ -266,8 +266,11 @@ def csw_render_extra_format_txt(request, layeruuid, resname):
                 resource.distribution_description) + sc"""
     content += f"data quality statement{s}{fst(resource.data_quality_statement)}{sc}"
 
-    ext = resource.bbox_polygon.extent
-    content += f"extent {s}{fst(ext[0])},{fst(ext[2])},{fst(ext[1])},{fst(ext[3])}{sc}"
+    # @ttungbmt
+    if hasattr(resource,'bbox_polygon'):
+        ext = resource.bbox_polygon.extent
+        content += f"extent {s}{fst(ext[0])},{fst(ext[2])},{fst(ext[1])},{fst(ext[3])}{sc}"
+
     content += f"SRID  {s}{fst(resource.srid)}{sc}"
     content += f"Thumbnail url{s}{fst(resource.thumbnail_url)}{sc}"
 
