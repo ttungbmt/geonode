@@ -51,7 +51,7 @@
     });
 
     $('#upload-button').click(function(){
-      $('#_resource_uploading').modal('toggle');
+      $('#upload_form input[name="title"]').val() && $('#_resource_uploading').modal('toggle');
     });
 </script>
 {% endblock extra_script %}
