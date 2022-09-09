@@ -165,6 +165,9 @@ urlpatterns += [
 
     # tinymce WYSIWYG HTML Editor
     url(r'^tinymce/', include('tinymce.urls')),
+
+    # becagis module
+    url(r'^api/becagis/', include('geonode.becagis.urls')),
 ]
 
 urlpatterns += i18n_patterns(
