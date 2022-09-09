@@ -1,4 +1,5 @@
 version: '2.2'
+
 services:
 
   db:
@@ -107,8 +108,8 @@ services:
     depends_on:
       - django
       - geoserver
-    ports:
-      - "80:80"
+    # ports:
+    #   - "90:80"
     volumes:
       - statics:/mnt/volumes/statics
 
@@ -132,7 +133,7 @@ volumes:
     name: ${COMPOSE_PROJECT_NAME}-dbdata
   dbbackups:
     name: ${COMPOSE_PROJECT_NAME}-dbbackups
-  rabbitmq:
-    name: ${COMPOSE_PROJECT_NAME}-rabbitmq
+  # rabbitmq:
+  #   name: ${COMPOSE_PROJECT_NAME}-rabbitmq
   backup-restore:
     name: ${COMPOSE_PROJECT_NAME}-backup-restore
